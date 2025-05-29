@@ -1,0 +1,5 @@
+max_n_away: 3.0
+select_actions: true
+select_method: traj
+loosen_bound: true
+ref_return: 1800

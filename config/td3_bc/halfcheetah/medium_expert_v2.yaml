@@ -1,0 +1,5 @@
+max_n_away: 1.5
+select_actions: true
+select_method: iql
+loosen_bound: false
+iql_tau: 0.7

@@ -1,0 +1,32 @@
+alpha: 2.5
+batch_size: 256
+buffer_size: 1000000
+checkpoints_path: null
+device: cuda
+discount: 0.99
+env: antmaze-large-diverse-v2
+eval_freq: 50000
+expl_noise: 0.1
+group: td3-bc-antmaze-large-diverse-v2-multiseed-v0
+load_model: ''
+offline_timesteps: 2000000
+n_episodes: 100
+name: TD3-BC
+noise_clip: 0.5
+normalize: true
+normalize_reward: true
+policy_freq: 2
+policy_noise: 0.2
+project: CORL
+tau: 0.005
+
+select_actions: true
+select_method: traj
+loosen_bound: false
+min_n_away: 5.0
+max_n_away: 5.0
+
+load_way: all
+
+new_policy_freq: 100
+decay_steps: -1
